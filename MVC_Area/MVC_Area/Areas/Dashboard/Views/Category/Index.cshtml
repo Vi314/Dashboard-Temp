@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewData["Title"] = "Category";
+    Layout = "~/Views/Shared/_DashboardLayout.cshtml";
+}
+
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item active">@ViewData["Title"]</li>
+</ol>
+
+<div class="row" >
+    <div class=" d-flex justify-content-between">
+        <h1>Category</h1>
+        <a href="" class="btn btn-outline-success" style="height:fit-content;" >New Category</a>
+    </div>
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>CategoryName</th>
+                <th>Description</th>
+                <th>Edit</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Teknoloji</td>
+                <td>Teknolojik ürünler olan bir teknolojik kategori</td>
+                <td>
+                    <a class="btn btn-outline-danger btn-sm"><img src="https://icon-library.com/images/delete-icon-png/delete-icon-png-19.jpg" style="width:20px; height:20px" /></a>
+                    <a class="btn btn-outline-warning btn-sm"><img src="https://imgs.search.brave.com/fkbXOaZaXvX5qWDVpsrcWcqImegnnQoUTQ-R35b8nwc/rs:fit:512:512:1/g:ce/aHR0cHM6Ly9pY29u/cy5pY29uYXJjaGl2/ZS5jb20vaWNvbnMv/cGFwaXJ1cy10ZWFt/L3BhcGlydXMtYXBw/cy81MTIvc3lzdGVt/LXNvZnR3YXJlLXVw/ZGF0ZS1pY29uLnBu/Zw" style="width:20px; height:20px" /></a>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>
